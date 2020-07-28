@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeraApp from './PrimeraApp';
+import GifExpertApp from './components/GifExpertApp';
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render( <PrimeraApp  saludo="Hola Soy Vegeta" />, divRoot);
+ReactDOM.render( <GifExpertApp />, divRoot);
 
